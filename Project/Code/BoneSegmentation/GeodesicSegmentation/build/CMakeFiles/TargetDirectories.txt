@@ -1,0 +1,3 @@
+C:/Users/Gourab/Documents/MedicalImag/KneeMRISegmentation/BoneSegmentation/GeodesicSegmentation/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Gourab/Documents/MedicalImag/KneeMRISegmentation/BoneSegmentation/GeodesicSegmentation/build/CMakeFiles/GeodesicSegmentation.dir
+C:/Users/Gourab/Documents/MedicalImag/KneeMRISegmentation/BoneSegmentation/GeodesicSegmentation/build/CMakeFiles/ZERO_CHECK.dir

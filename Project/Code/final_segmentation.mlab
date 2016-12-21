@@ -1,0 +1,558 @@
+// MDL v1 utf8
+network  {
+  watchlist = ""
+}
+module Morphology {
+  internal  {
+    frame = "213 245 104 56"
+    moduleGroupName = Bone
+    windows  {
+      window _default {
+        geometry = "758 263 424 643"
+        sizeHint = "424 643"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Morphology3
+    borderHandling = PadSrcClamp
+    fillValue = 0
+    referenceExtentMode = Overlap
+    filterMode = Erosion
+    kernelX = 3
+    kernelY = 3
+    kernelZ = 2
+    kernelC = 1
+    kernelT = 1
+    kernelU = 1
+    makeSpherical = FALSE
+    intervalMinOfFilteredVoxels = 0
+    intervalMaxOfFilteredVoxels = 1024
+    useIntervalOfFilteredVoxels = FALSE
+    intervalMinOfVoxelsForFiltering = 0
+    intervalMaxOfVoxelsForFiltering = 1024
+    useIntervalOfVoxelsForFiltering = FALSE
+    externalKernel = ""
+    useExternalKernel = FALSE
+  }
+}
+module Morphology {
+  internal  {
+    frame = "213 365 104 56"
+    moduleGroupName = Bone
+    windows  {
+      window _default {
+        geometry = "758 263 424 643"
+        sizeHint = "424 643"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Morphology2
+    borderHandling = PadSrcClamp
+    fillValue = 0
+    referenceExtentMode = Overlap
+    filterMode = Dilation
+    kernelX = 5
+    kernelY = 5
+    kernelZ = 3
+    kernelC = 1
+    kernelT = 1
+    kernelU = 1
+    makeSpherical = FALSE
+    intervalMinOfFilteredVoxels = 0
+    intervalMaxOfFilteredVoxels = 1024
+    useIntervalOfFilteredVoxels = FALSE
+    intervalMinOfVoxelsForFiltering = 0
+    intervalMaxOfVoxelsForFiltering = 1024
+    useIntervalOfVoxelsForFiltering = FALSE
+    externalKernel = ""
+    useExternalKernel = FALSE
+  }
+}
+module Arithmetic {
+  internal  {
+    frame = "697 141 96 56"
+    moduleGroupName = Cartilage
+    windows  {
+      window _default {
+        geometry = "885 282 787 636"
+        sizeHint = "787 636"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Arithmetic3
+    expression = "2*(a&&1)+4*(b&&(b xor a))"
+    i1 = 0
+    i2 = 0
+    i3 = 0
+    i4 = 0
+    i5 = 0
+    i6 = 0
+    d1 = 0
+    d2 = 0
+    d3 = 0
+    d4 = 0
+    d5 = 0
+    d6 = 0
+    d7 = 0
+    d8 = 0
+    d9 = 0
+    d10 = 0
+    d11 = 0
+    d12 = 0
+    minValue = 0
+    maxValue = 1
+    setMinMaxValues = FALSE
+    dataType = int8
+    setDataType = FALSE
+    updateMode = AutoUpdate
+    applyMode = AutoApply
+    domainErrorHandling = ErrorMessage
+    numberOfInputs = 2
+    expressionComment = ""
+    scalarVariablesComment = ""
+  }
+}
+module itkImageFileWriter {
+  internal  {
+    frame = "49 -219 128 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "837 332 455 473"
+        sizeHint = "366 473"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileWriter
+    useCompression = FALSE
+    correctSubVoxelShift = TRUE
+    forceDirectionCosineWrite = FALSE
+    outputVoxelType = Automatic
+    info = "File saved successfully"
+    unresolvedFileName = $(HOME)/Documents/segmented-100_G5.mhd
+  }
+}
+module Arithmetic {
+  internal  {
+    frame = "385 -43 96 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "851 462 787 636"
+        sizeHint = "787 636"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Arithmetic2
+    expression = "b + a*(a xor b)"
+    i1 = 0
+    i2 = 0
+    i3 = 0
+    i4 = 0
+    i5 = 0
+    i6 = 0
+    d1 = 0
+    d2 = 0
+    d3 = 0
+    d4 = 0
+    d5 = 0
+    d6 = 0
+    d7 = 0
+    d8 = 0
+    d9 = 0
+    d10 = 0
+    d11 = 0
+    d12 = 0
+    minValue = 0
+    maxValue = 1
+    setMinMaxValues = FALSE
+    dataType = int8
+    setDataType = FALSE
+    updateMode = AutoUpdate
+    applyMode = AutoApply
+    domainErrorHandling = ErrorMessage
+    numberOfInputs = 2
+    expressionComment = ""
+    scalarVariablesComment = ""
+  }
+}
+module Morphology {
+  internal  {
+    frame = "813 277 104 56"
+    moduleGroupName = Cartilage
+    windows  {
+      window _default {
+        geometry = "758 263 424 643"
+        sizeHint = "424 643"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Morphology1
+    borderHandling = PadSrcClamp
+    fillValue = 0
+    referenceExtentMode = Overlap
+    filterMode = Dilation
+    kernelX = 3
+    kernelY = 3
+    kernelZ = 1
+    kernelC = 1
+    kernelT = 1
+    kernelU = 1
+    makeSpherical = FALSE
+    intervalMinOfFilteredVoxels = 0
+    intervalMaxOfFilteredVoxels = 1024
+    useIntervalOfFilteredVoxels = FALSE
+    intervalMinOfVoxelsForFiltering = 0
+    intervalMaxOfVoxelsForFiltering = 1024
+    useIntervalOfVoxelsForFiltering = FALSE
+    externalKernel = ""
+    useExternalKernel = FALSE
+  }
+}
+module RegionGrowingMacro {
+  internal  {
+    frame = "793 397 160 56"
+    moduleGroupName = Cartilage
+    windows  {
+      window _default {
+        geometry = "91 82 1143 574"
+        sizeHint = "1143 574"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = RegionGrowingMacro1
+    isInit = TRUE
+    autoUpdateMode = AutoUpdate
+    enableAutoThresholdInterval = TRUE
+    autoThresholdIntervalSizeInPercent = 0.55
+    basicNeighborhoodType = BNBH_3D_6_XYZ
+    extendedNeighborhoodType = ENBH_3D_5_XYpZ
+    lowerThreshold = 0.932398951556844
+    upperThreshold = 0.965398951556844
+    useExtendedNBH = TRUE
+    stretchOutputOverTime = FALSE
+    cCoord = 0
+    uCoord = 0
+    unitType = UnitTypeGrayValue
+    upperVolumeLimit_ml = 100
+    enableUpperVolumeLimit = FALSE
+    autoUpdateUnitType = TRUE
+    showPartialResults = FALSE
+    posFillValue = -1
+    negFillValue = 0
+    invertResult = FALSE
+    showOuterBoundariesOnly = FALSE
+    incrementalUpdateMode = Smart
+    internalAccuracy = Auto
+    markerPersistence = TRUE
+    markerString = "[(113.274 116.399 58.9868) #1, (100.775 114.055 64.9868) #15, (104.681 110.93 72.9868) #31, (91.4004 119.133 80.9868) #41, (91.4004 119.133 87.9868) #43, (101.947 110.149 68.9868) #90, (85.5414 114.836 68.9868) #91, (89.0568 120.695 91.9868) #95, (96.0876 118.742 91.9868) #97, (94.1346 114.836 67.9868) #98, (91.791 115.227 67.9868) #99, (90.2286 115.618 75.9868) #101, (83.979 116.399 75.9868) #102, (110.149 112.493 75.9868) #106, (112.883 114.446 75.9868) #107]"
+    deleteMarkerOnClick = TRUE
+    markerOverflowMode = None
+    maxMarkers = 0
+    baseColor = "1 0.420675009489059 0"
+    blendMode = BLEND_BLEND
+    overlayAlpha = 0.5
+  }
+}
+module Morphology {
+  internal  {
+    frame = "569 277 96 56"
+    moduleGroupName = Cartilage
+    windows  {
+      window _default {
+        geometry = "758 263 424 643"
+        sizeHint = "424 643"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Morphology
+    borderHandling = PadSrcClamp
+    fillValue = 0
+    referenceExtentMode = Overlap
+    filterMode = Dilation
+    kernelX = 5
+    kernelY = 5
+    kernelZ = 1
+    kernelC = 1
+    kernelT = 1
+    kernelU = 1
+    makeSpherical = FALSE
+    intervalMinOfFilteredVoxels = 0
+    intervalMaxOfFilteredVoxels = 1024
+    useIntervalOfFilteredVoxels = FALSE
+    intervalMinOfVoxelsForFiltering = 0
+    intervalMaxOfVoxelsForFiltering = 1024
+    useIntervalOfVoxelsForFiltering = FALSE
+    externalKernel = ""
+    useExternalKernel = FALSE
+  }
+}
+module OrthoView2D {
+  internal  {
+    frame = "717 -219 120 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "671 221 400 430"
+        sizeHint = "400 430"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = OrthoView2D
+    inventorInputOn = TRUE
+    inventorOutputOn = FALSE
+    synchronizePosition = TRUE
+    layout = LAYOUT_CUBE_EQUAL
+    filterMode = FILTER_LINEAR
+    synchronizeZoom = TRUE
+    synchronizePanning = FALSE
+    useGlobalInputImage = TRUE
+    snapToCenter = FALSE
+    alternCubeLayout = FALSE
+    timePoint = 0
+    useManagedInteraction = FALSE
+    enableSlicing = TRUE
+    borderOn = TRUE
+    borderColor = "0.899999976158142 0.899999976158142 0.899999976158142"
+    grayWidth = 4
+    grayCenter = 2
+    annotationOn = TRUE
+    annotationSizeMode = ANNO_SHOW_DETAILED
+    annotationFontSize = ANNO_SIZE_AUTO
+    valueHighPrecision = TRUE
+    annoCoords = Voxel
+    showCurrentPos = TRUE
+    worldPosition = "89.0528182983398 36.3258018493652 43.7645492553711"
+    coloredMode = FALSE
+    hiResRendering = TRUE
+  }
+}
+module TextureFilter {
+  internal  {
+    frame = "685 629 104 56"
+    moduleGroupName = Cartilage
+    windows  {
+      window _default {
+        geometry = "904 173 725 457"
+        sizeHint = "725 457"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = TextureFilter
+    borderHandling = PadSrcClamp
+    fillValue = 0
+    referenceExtentMode = Overlap
+    edgeMode = PadSrcClamp
+    kernelInput = ""
+    inputSelect = "use Extent Input"
+    filterSelect = "Measures of Correlation2 (Co-ocurrence Matrix)"
+    scaleSelect = "factor   16"
+    neighbourSelect = "0 Degree (x+,y)"
+    distance = 1
+    deviance = 0
+    xCoordExt = 3
+    yCoordExt = 3
+    zCoordExt = 1
+    cCoordExt = 1
+    tCoordExt = 1
+    uCoordExt = 1
+    autoApply = TRUE
+    minMaxAdjust = FALSE
+    minValue = 0
+    maxValue = 0
+    distanceOn = FALSE
+    devianceOn = FALSE
+    neighbourSelectOn = TRUE
+    scaleSelectOn = TRUE
+    extentInput = TRUE
+    noFilter = FALSE
+  }
+}
+module itkImageFileReader {
+  internal  {
+    frame = "185 509 144 56"
+    moduleGroupName = Bone
+    windows  {
+      window _default {
+        geometry = "751 326 439 517"
+        sizeHint = "439 517"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileReader2
+    fileDataType = int16
+    autoDetermineDataType = FALSE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Loading okay."
+    numDims = 3
+    fileType = Binary
+    componentType = float
+    pixelType = SCALAR
+    loaderType = MetaImageIO
+    outputMetaDataStr = "ITK_InputFilterName : MetaImageIO
+"
+    unresolvedFileName = $(HOME)/Documents/bone-100.mhd
+  }
+}
+module itkImageFileReader {
+  internal  {
+    frame = "677 773 136 56"
+    moduleGroupName = Cartilage
+    windows  {
+      window _default {
+        geometry = "568 236 439 517"
+        sizeHint = "439 517"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileReader
+    fileDataType = int16
+    autoDetermineDataType = FALSE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Loading okay."
+    numDims = 3
+    fileType = Binary
+    componentType = int16
+    pixelType = SCALAR
+    loaderType = MetaImageIO
+    outputMetaDataStr = "ITK_InputFilterName : MetaImageIO
+"
+    unresolvedFileName = $(HOME)/Documents/image-100.mhd
+  }
+}
+module MinMaxScan {
+  internal  {
+    frame = "389 -163 104 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "649 417 666 334"
+        sizeHint = "642 334"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = MinMaxScan
+    updateMode = AutoUpdate
+    typeSelect = "Proposed Data Type"
+    preferredIntType = PreferUnsigned
+  }
+}
+module RegionGrowingMacro {
+  internal  {
+    frame = "557 397 152 56"
+    moduleGroupName = Cartilage
+    windows  {
+      window _default {
+        geometry = "216 68 1143 574"
+        sizeHint = "1143 574"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = RegionGrowingMacro
+    isInit = TRUE
+    autoUpdateMode = AutoUpdate
+    enableAutoThresholdInterval = TRUE
+    autoThresholdIntervalSizeInPercent = 0.6
+    basicNeighborhoodType = BNBH_3D_6_XYZ
+    extendedNeighborhoodType = ENBH_3D_5_XYmZ
+    lowerThreshold = 0.939210460115799
+    upperThreshold = 0.975210460115799
+    useExtendedNBH = TRUE
+    stretchOutputOverTime = FALSE
+    cCoord = 0
+    uCoord = 0
+    unitType = UnitTypeGrayValue
+    upperVolumeLimit_ml = 100
+    enableUpperVolumeLimit = FALSE
+    autoUpdateUnitType = TRUE
+    showPartialResults = FALSE
+    posFillValue = -1
+    negFillValue = 0
+    invertResult = FALSE
+    showOuterBoundariesOnly = FALSE
+    incrementalUpdateMode = Smart
+    internalAccuracy = Auto
+    markerPersistence = TRUE
+    markerString = "[(88.2756 117.18 43.9868) #1, (88.2756 115.618 91.9868) #2, (107.415 110.54 85.9868) #4]"
+    deleteMarkerOnClick = TRUE
+    markerOverflowMode = None
+    maxMarkers = 0
+    baseColor = "1 0.420675009489059 0"
+    blendMode = BLEND_BLEND
+    overlayAlpha = 0.5
+  }
+}
+connections  {
+  Morphology3.input0 = Morphology2.output0
+  Morphology2.input0 = itkImageFileReader2.output0
+  Arithmetic3.input0 = Morphology.output0
+  Arithmetic3.input1 = Morphology1.output0
+  itkImageFileWriter.input0 = MinMaxScan.output0
+  Arithmetic2.input0 = Morphology3.output0
+  Arithmetic2.input1 = Arithmetic3.output0
+  Morphology1.input0 = RegionGrowingMacro1.outMask
+  RegionGrowingMacro1.inImage = TextureFilter.output0
+  Morphology.input0 = RegionGrowingMacro.outMask
+  OrthoView2D.image = MinMaxScan.output0
+  TextureFilter.input0 = itkImageFileReader.output0
+  MinMaxScan.input0 = Arithmetic2.output0
+  RegionGrowingMacro.inImage = TextureFilter.output0
+}
+networkModel  {
+  parentItems  {
+    0  {
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 30
+        objectName = Cartilage
+        parentUniqueId = 0
+        color  {
+          r = 45
+          g = 226
+          b = 226
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 69
+        objectName = Bone
+        parentUniqueId = 0
+        color  {
+          r = 45
+          g = 226
+          b = 226
+          a = 40
+        }
+      }
+    }
+  }
+}

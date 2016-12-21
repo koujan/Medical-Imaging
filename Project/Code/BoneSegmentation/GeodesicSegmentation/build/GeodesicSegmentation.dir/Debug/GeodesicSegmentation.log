@@ -1,0 +1,423 @@
+﻿Build started 18-05-2016 00:17:36.
+     1>Project "C:\Users\Gourab\Documents\MedicalImag\KneeMRISegmentation\BoneSegmentation\GeodesicSegmentation\build\GeodesicSegmentation.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "GeodesicSegmentation.dir\Debug\GeodesicSegmentation.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Gourab\Documents\MedicalImag\KneeMRISegmentation\BoneSegmentation\GeodesicSegmentation\build\ITKIOFactoryRegistration /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\Watersheds\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\Voronoi\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Video\IO\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Video\Filtering\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Video\Core\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Bridge\VTK\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\TestKernel\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\SpatialFunction\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Registration\RegistrationMethodsv4\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\RegionGrowing\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\QuadEdgeMeshFiltering\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Numerics\NeuralNetworks\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Registration\Metricsv4\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Numerics\Optimizersv4\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\MarkovRandomFieldsClassifiers\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\LevelSetsv4\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\LabelVoting\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\KLMRegionGrowing\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageNoise\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageFusion\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\VTK\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\TransformMatlab\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\TransformInsightLegacy\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\TransformHDF5\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\TransformBase\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\Stimulate\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\Siemens\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\RAW\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\PNG\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\PNG\src" /IC:\ITK\binary\Modules\ThirdParty\PNG\src /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\NRRD\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\NrrdIO\src\NrrdIO" /IC:\ITK\binary\Modules\ThirdParty\NrrdIO\src\NrrdIO /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\NIFTI\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\Meta\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\Mesh\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\MRC\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\LSM\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\TIFF\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\TIFF\src" /IC:\ITK\binary\Modules\ThirdParty\TIFF\src\itktiff /IC:\ITK\binary\Modules\ThirdParty\TIFF\src /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\JPEG\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\JPEG\src" /IC:\ITK\binary\Modules\ThirdParty\JPEG\src /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\HDF5\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\GIPL\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\GE\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\IPL\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\GDCM\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\CSV\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\BioRad\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\BMP\include" /IC:\ITK\binary\Modules\ThirdParty\HDF5\src /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\HDF5\src" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\GPUThresholding\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\GPUSmoothing\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Registration\GPUPDEDeformable\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Registration\GPUCommon\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\GPUImageFilterBase\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\GPUAnisotropicSmoothing\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\GPUFiniteDifference\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\GPUCommon\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\GIFTI\src\gifticlib" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\NIFTI\src\nifti\znzlib" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\NIFTI\src\nifti\niftilib" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\GDCM\src\gdcm\Source\DataStructureAndEncodingDefinition" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\GDCM\src\gdcm\Source\MessageExchangeDefinition" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\GDCM\src\gdcm\Source\InformationObjectDefinition" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\GDCM\src\gdcm\Source\Common" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\GDCM\src\gdcm\Source\DataDictionary" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\GDCM\src\gdcm\Source\MediaStorageAndFileFormat" /IC:\ITK\binary\Modules\ThirdParty\GDCM\src\gdcm\Source\Common /IC:\ITK\binary\Modules\ThirdParty\GDCM /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Registration\FEM\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Registration\PDEDeformable\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Numerics\FEM\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Registration\Common\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\SpatialObjects\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\XML\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\Expat\src\expat" /IC:\ITK\binary\Modules\ThirdParty\Expat\src\expat /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Numerics\Eigen\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\DisplacementField\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\DiffusionTensorImage\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\Denoising\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\DeformableMesh\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\Deconvolution\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\DICOMParser\src\DICOMParser" /IC:\ITK\binary\Modules\ThirdParty\DICOMParser\src\DICOMParser /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\Convolution\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\FFT\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\Colormap\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\Classifiers\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\BioCell\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\BiasCorrection\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Numerics\Polynomials\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\AntiAlias\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\LevelSets\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\SignedDistanceFunction\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Numerics\Optimizers\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageFeature\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageSources\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageGradient\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\Smoothing\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageCompare\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\IO\ImageBase\include" /IC:\ITK\binary\Modules\IO\ImageBase /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\FastMarching\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\QuadEdgeMesh\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\DistanceMap\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Numerics\NarrowBand\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageLabel\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\BinaryMathematicalMorphology\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\MathematicalMorphology\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Segmentation\ConnectedComponents\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\Thresholding\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageIntensity\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\Path\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageStatistics\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\SpatialObjects\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\MetaIO\src\MetaIO\src" /IC:\ITK\binary\Modules\ThirdParty\MetaIO\src\MetaIO\src /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\ZLIB\src" /IC:\ITK\binary\Modules\ThirdParty\ZLIB\src /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\Mesh\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageCompose\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\LabelMap\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\AnisotropicSmoothing\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageGrid\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\ImageFunction\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\Transform\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Numerics\Statistics\include" /IC:\ITK\binary\Modules\ThirdParty\Netlib /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\ImageAdaptors\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\CurvatureFlow\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Filtering\ImageFilterBase\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\FiniteDifference\include" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\Common\include" /IC:\ITK\binary\Modules\Core\Common /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\VNLInstantiation\include" /IC:\ITK\binary\Modules\ThirdParty\VNL\src\vxl\core /IC:\ITK\binary\Modules\ThirdParty\VNL\src\vxl\vcl /IC:\ITK\binary\Modules\ThirdParty\VNL\src\vxl\v3p\netlib /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\VNL\src\vxl\core" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\VNL\src\vxl\vcl" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\VNL\src\vxl\v3p\netlib" /IC:\ITK\binary\Modules\ThirdParty\KWSys\src /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\KWIML\src" /IC:\ITK\binary\Modules\ThirdParty\KWIML\src /I"C:\ITK\binary\Modules\ThirdParty\DoubleConversion\src\double-conversion" /I"C:\ITK\source\InsightToolkit-4.9.0\Modules\ThirdParty\DoubleConversion\src\double-conversion" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ITK_IO_FACTORY_REGISTER_MANAGER /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"GeodesicSegmentation.dir\Debug\\" /Fd"GeodesicSegmentation.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\GeodesicSegmentation.cxx  /bigobj 
+         GeodesicSegmentation.cxx
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.hxx(88) : see reference to function template instantiation 'void std::fill_n<TElement*,unsigned long,TPixel>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     TElement=float,
+                     TPixel=InternalPixelType,
+                     _OutIt=float *,
+                     _Diff=unsigned long,
+                     _Ty=InternalPixelType
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.hxx(84) : while compiling class template member function 'void itk::Image<TPixel,VImageDimension>::FillBuffer(const TPixel &)'
+                 with
+                 [
+                     TPixel=InternalPixelType,
+                     VImageDimension=2
+                 ]
+                 ..\GeodesicSegmentation.cxx(56) : see reference to class template instantiation 'itk::Image<TPixel,VImageDimension>' being compiled
+                 with
+                 [
+                     TPixel=InternalPixelType,
+                     VImageDimension=2
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\io\imagebase\include\itkImageFileReader.hxx(441) : see reference to function template instantiation '_OutIt std::copy<const float*,float*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     _InIt=const float *
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\io\imagebase\include\itkImageFileReader.hxx(353) : while compiling class template member function 'void itk::ImageFileReader<TOutputImage>::GenerateData(void)'
+                 with
+                 [
+                     TOutputImage=InputImageType
+                 ]
+                 ..\GeodesicSegmentation.cxx(137) : see reference to class template instantiation 'itk::ImageFileReader<TOutputImage>' being compiled
+                 with
+                 [
+                     TOutputImage=InputImageType
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\filtering\mathematicalmorphology\include\itkBinaryBallStructuringElement.hxx(37) : see reference to function template instantiation '_OutIt std::copy<bool*,float*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     _InIt=bool *
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\filtering\mathematicalmorphology\include\itkBinaryBallStructuringElement.hxx(31) : while compiling class template member function 'void itk::BinaryBallStructuringElement<TPixel,VDimension>::CreateStructuringElement(void)'
+                 with
+                 [
+                     TPixel=float,
+                     VDimension=2
+                 ]
+                 ..\GeodesicSegmentation.cxx(378) : see reference to class template instantiation 'itk::BinaryBallStructuringElement<TPixel,VDimension>' being compiled
+                 with
+                 [
+                     TPixel=float,
+                     VDimension=2
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(72) : see reference to function template instantiation '_OutIt std::copy<TElement*,TElement*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     TElement=float,
+                     _InIt=float *
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(60) : while compiling class template member function 'void itk::ImportImageContainer<TElementIdentifier,TElement>::Reserve(unsigned long,const bool)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=float
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(38) : while compiling class template member function 'itk::ImportImageContainer<TElementIdentifier,TElement>::ImportImageContainer(void)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=float
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.h(149) : see reference to class template instantiation 'itk::ImportImageContainer<TElementIdentifier,TElement>' being compiled
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=float
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\io\imagebase\include\itkImageFileReader.h(74) : see reference to class template instantiation 'itk::Image<TPixel,VImageDimension>' being compiled
+                 with
+                 [
+                     TPixel=InputPixelType,
+                     VImageDimension=3
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(72) : see reference to function template instantiation '_OutIt std::copy<TElement*,TElement*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=unsigned char *,
+                     TElement=unsigned char,
+                     _InIt=unsigned char *
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(60) : while compiling class template member function 'void itk::ImportImageContainer<TElementIdentifier,TElement>::Reserve(unsigned long,const bool)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=unsigned char
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(38) : while compiling class template member function 'itk::ImportImageContainer<TElementIdentifier,TElement>::ImportImageContainer(void)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=unsigned char
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.h(149) : see reference to class template instantiation 'itk::ImportImageContainer<TElementIdentifier,TElement>' being compiled
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=unsigned char
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\filtering\thresholding\include\itkBinaryThresholdImageFilter.h(128) : see reference to class template instantiation 'itk::Image<TPixel,VImageDimension>' being compiled
+                 with
+                 [
+                     TPixel=BinaryPixelType,
+                     VImageDimension=2
+                 ]
+                 ..\GeodesicSegmentation.cxx(241) : see reference to class template instantiation 'itk::BinaryThresholdImageFilter<TInputImage,TOutputImage>' being compiled
+                 with
+                 [
+                     TInputImage=InternalImageType,
+                     TOutputImage=BinaryImageType
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.hxx(88) : see reference to function template instantiation 'void std::fill_n<TElement*,unsigned long,TPixel>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     TElement=unsigned char,
+                     TPixel=BinaryPixelType,
+                     _OutIt=unsigned char *,
+                     _Diff=unsigned long,
+                     _Ty=BinaryPixelType
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.hxx(84) : while compiling class template member function 'void itk::Image<TPixel,VImageDimension>::FillBuffer(const TPixel &)'
+                 with
+                 [
+                     TPixel=BinaryPixelType,
+                     VImageDimension=2
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.hxx(50) : while compiling class template member function 'void itk::Image<TPixel,VImageDimension>::Allocate(bool)'
+                 with
+                 [
+                     TPixel=BinaryPixelType,
+                     VImageDimension=2
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(72) : see reference to function template instantiation '_OutIt std::copy<TElement*,TElement*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=signed char *,
+                     TElement=signed char,
+                     _InIt=signed char *
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(60) : while compiling class template member function 'void itk::ImportImageContainer<TElementIdentifier,TElement>::Reserve(unsigned long,const bool)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=signed char
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(38) : while compiling class template member function 'itk::ImportImageContainer<TElementIdentifier,TElement>::ImportImageContainer(void)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=signed char
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.h(149) : see reference to class template instantiation 'itk::ImportImageContainer<TElementIdentifier,TElement>' being compiled
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=signed char
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\segmentation\levelsets\include\itkSparseFieldLevelSetImageFilter.h(471) : see reference to class template instantiation 'itk::Image<TPixel,VImageDimension>' being compiled
+                 with
+                 [
+                     TPixel=itk::SparseFieldLevelSetImageFilter<InternalImageType,itk::Image<InternalPixelType,2>>::StatusType,
+                     VImageDimension=2
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\segmentation\levelsets\include\itkSegmentationLevelSetImageFilter.h(149) : see reference to class template instantiation 'itk::SparseFieldLevelSetImageFilter<TInputImage,TOutputImage>' being compiled
+                 with
+                 [
+                     TInputImage=InternalImageType,
+                     TOutputImage=itk::Image<InternalPixelType,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\segmentation\levelsets\include\itkGeodesicActiveContourLevelSetImageFilter.h(110) : see reference to class template instantiation 'itk::SegmentationLevelSetImageFilter<TInputImage,TFeatureImage,TOutputPixelType>' being compiled
+                 with
+                 [
+                     TInputImage=InternalImageType,
+                     TFeatureImage=InternalImageType,
+                     TOutputPixelType=float
+                 ]
+                 ..\GeodesicSegmentation.cxx(367) : see reference to class template instantiation 'itk::GeodesicActiveContourLevelSetImageFilter<TInputImage,TFeatureImage>' being compiled
+                 with
+                 [
+                     TInputImage=InternalImageType,
+                     TFeatureImage=InternalImageType
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(72) : see reference to function template instantiation '_OutIt std::copy<TElement*,TElement*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=itk::FixedArray<float,2> *,
+                     TElement=itk::FixedArray<float,2>,
+                     _InIt=itk::FixedArray<float,2> *
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(60) : while compiling class template member function 'void itk::ImportImageContainer<TElementIdentifier,TElement>::Reserve(unsigned long,const bool)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=itk::FixedArray<float,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(38) : while compiling class template member function 'itk::ImportImageContainer<TElementIdentifier,TElement>::ImportImageContainer(void)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=itk::FixedArray<float,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.h(149) : see reference to class template instantiation 'itk::ImportImageContainer<TElementIdentifier,TElement>' being compiled
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=itk::FixedArray<float,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\segmentation\levelsets\include\itkSegmentationLevelSetFunction.h(149) : see reference to class template instantiation 'itk::Image<TPixel,VImageDimension>' being compiled
+                 with
+                 [
+                     TPixel=itk::FixedArray<float,2>,
+                     VImageDimension=2
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\segmentation\levelsets\include\itkSegmentationLevelSetImageFilter.h(178) : see reference to class template instantiation 'itk::SegmentationLevelSetFunction<TImageType,TFeatureImageType>' being compiled
+                 with
+                 [
+                     TImageType=itk::Image<InternalPixelType,2>,
+                     TFeatureImageType=itk::Image<InternalPixelType,2>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(72) : see reference to function template instantiation '_OutIt std::copy<TElement*,TElement*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=itk::CovariantVector<float,2> *,
+                     TElement=itk::CovariantVector<float,2>,
+                     _InIt=itk::CovariantVector<float,2> *
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(60) : while compiling class template member function 'void itk::ImportImageContainer<TElementIdentifier,TElement>::Reserve(unsigned long,const bool)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=itk::CovariantVector<float,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(38) : while compiling class template member function 'itk::ImportImageContainer<TElementIdentifier,TElement>::ImportImageContainer(void)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=itk::CovariantVector<float,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.h(149) : see reference to class template instantiation 'itk::ImportImageContainer<TElementIdentifier,TElement>' being compiled
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=itk::CovariantVector<float,2>
+                 ]
+                 C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\Common\include\itkImageSource.h(88) : see reference to class template instantiation 'itk::Image<TPixel,VImageDimension>' being compiled
+                 with
+                 [
+                     TPixel=itk::CovariantVector<float,2>,
+                     VImageDimension=2
+                 ]
+                 C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\Common\include\itkImageToImageFilter.h(107) : see reference to class template instantiation 'itk::ImageSource<TOutputImage>' being compiled
+                 with
+                 [
+                     TOutputImage=itk::Image<itk::CovariantVector<float,2>,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\filtering\imagegradient\include\itkGradientImageFilter.h(62) : see reference to class template instantiation 'itk::ImageToImageFilter<TInputImage,TOutputImage>' being compiled
+                 with
+                 [
+                     TInputImage=itk::Image<InternalPixelType,2>,
+                     TOutputImage=itk::Image<itk::CovariantVector<float,2>,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\segmentation\levelsets\include\itkGeodesicActiveContourLevelSetFunction.hxx(66) : see reference to class template instantiation 'itk::GradientImageFilter<TInputImage>' being compiled
+                 with
+                 [
+                     TInputImage=itk::Image<InternalPixelType,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\segmentation\levelsets\include\itkGeodesicActiveContourLevelSetFunction.hxx(45) : while compiling class template member function 'void itk::GeodesicActiveContourLevelSetFunction<TImageType,TFeatureImageType>::CalculateAdvectionImage(void)'
+                 with
+                 [
+                     TImageType=itk::Image<InternalPixelType,2>,
+                     TFeatureImageType=itk::Image<InternalPixelType,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\segmentation\levelsets\include\itkGeodesicActiveContourLevelSetImageFilter.h(128) : see reference to class template instantiation 'itk::GeodesicActiveContourLevelSetFunction<TImageType,TFeatureImageType>' being compiled
+                 with
+                 [
+                     TImageType=itk::Image<InternalPixelType,2>,
+                     TFeatureImageType=itk::Image<InternalPixelType,2>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(72) : see reference to function template instantiation '_OutIt std::copy<TElement*,TElement*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=bool *,
+                     TElement=bool,
+                     _InIt=bool *
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(60) : while compiling class template member function 'void itk::ImportImageContainer<TElementIdentifier,TElement>::Reserve(unsigned long,const bool)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=bool
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImportImageContainer.hxx(38) : while compiling class template member function 'itk::ImportImageContainer<TElementIdentifier,TElement>::ImportImageContainer(void)'
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=bool
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImage.h(149) : see reference to class template instantiation 'itk::ImportImageContainer<TElementIdentifier,TElement>' being compiled
+                 with
+                 [
+                     TElementIdentifier=unsigned long,
+                     TElement=bool
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\filtering\mathematicalmorphology\include\itkFlatStructuringElement.hxx(690) : see reference to class template instantiation 'itk::Image<TPixel,VImageDimension>' being compiled
+                 with
+                 [
+                     TPixel=bool,
+                     VImageDimension=2
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\filtering\mathematicalmorphology\include\itkFlatStructuringElement.hxx(679) : while compiling class template member function 'itk::FlatStructuringElement<VDimension> itk::FlatStructuringElement<VDimension>::Ball(itk::Size<2>,bool)'
+                 with
+                 [
+                     VDimension=2
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\filtering\mathematicalmorphology\include\itkBinaryBallStructuringElement.hxx(34) : see reference to class template instantiation 'itk::FlatStructuringElement<VDimension>' being compiled
+                 with
+                 [
+                     VDimension=2
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(1119): warning C4996: 'std::_Transform1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(1100) : see declaration of 'std::_Transform1'
+                 C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\Common\include\itkImageAlgorithm.h(213) : see reference to function template instantiation '_OutIt std::transform<const TInputType*,TOutputType*,itk::ImageAlgorithm::StaticCast<TInputType,TOutputType>>(_InIt,_InIt,_OutIt,_Fn1)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     TInputType=unsigned char,
+                     TOutputType=float,
+                     _InIt=const unsigned char *,
+                     _Fn1=itk::ImageAlgorithm::StaticCast<unsigned char,float>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\core\common\include\itkImageAlgorithm.hxx(136) : see reference to function template instantiation 'TOutputType *itk::ImageAlgorithm::CopyHelper<unsigned char,float>(const TInputType *,const TInputType *,TOutputType *)' being compiled
+                 with
+                 [
+                     TOutputType=float,
+                     TInputType=unsigned char
+                 ]
+                 C:\ITK\source\InsightToolkit-4.9.0\Modules\Core\Common\include\itkImageAlgorithm.h(112) : see reference to function template instantiation 'void itk::ImageAlgorithm::DispatchedCopy<itk::Image<TPixel,VImageDimension>,itk::Image<InternalPixelType,2>>(const InputImageType *,OutputImageType *,const itk::ImageRegion<2> &,const itk::ImageRegion<2> &,itk::ImageAlgorithm::TrueType)' being compiled
+                 with
+                 [
+                     TPixel=BinaryPixelType,
+                     VImageDimension=2,
+                     InputImageType=itk::Image<BinaryPixelType,2>,
+                     OutputImageType=itk::Image<InternalPixelType,2>
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\filtering\imagefilterbase\include\itkCastImageFilter.hxx(73) : see reference to function template instantiation 'void itk::ImageAlgorithm::Copy<BinaryPixelType,InternalPixelType,2>(const itk::Image<TPixel,VImageDimension> *,itk::Image<InternalPixelType,2> *,const itk::ImageRegion<2> &,const itk::ImageRegion<2> &)' being compiled
+                 with
+                 [
+                     TPixel=BinaryPixelType,
+                     VImageDimension=2
+                 ]
+                 c:\itk\source\insighttoolkit-4.9.0\modules\filtering\imagefilterbase\include\itkCastImageFilter.hxx(59) : while compiling class template member function 'void itk::CastImageFilter<TInputImage,TOutputImage>::ThreadedGenerateData(const itk::ImageRegion<VImageDimension> &,itk::ThreadIdType)'
+                 with
+                 [
+                     TInputImage=BinaryImageType,
+                     TOutputImage=InternalImageType,
+                     VImageDimension=2
+                 ]
+                 ..\GeodesicSegmentation.cxx(513) : see reference to class template instantiation 'itk::CastImageFilter<TInputImage,TOutputImage>' being compiled
+                 with
+                 [
+                     TInputImage=BinaryImageType,
+                     TOutputImage=InternalImageType
+                 ]
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gourab\Documents\MedicalImag\KneeMRISegmentation\BoneSegmentation\GeodesicSegmentation\build\Debug\GeodesicSegmentation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\ITK\binary\lib\Debug\itkdouble-conversion-4.9.lib" "C:\ITK\binary\lib\Debug\itksys-4.9.lib" "C:\ITK\binary\lib\Debug\itkvnl_algo-4.9.lib" "C:\ITK\binary\lib\Debug\itkvnl-4.9.lib" "C:\ITK\binary\lib\Debug\itkv3p_netlib-4.9.lib" "C:\ITK\binary\lib\Debug\ITKCommon-4.9.lib" "C:\ITK\binary\lib\Debug\itkNetlibSlatec-4.9.lib" "C:\ITK\binary\lib\Debug\ITKStatistics-4.9.lib" "C:\ITK\binary\lib\Debug\ITKTransform-4.9.lib" "C:\ITK\binary\lib\Debug\ITKLabelMap-4.9.lib" "C:\ITK\binary\lib\Debug\ITKMesh-4.9.lib" "C:\ITK\binary\lib\Debug\itkzlib-4.9.lib" "C:\ITK\binary\lib\Debug\ITKMetaIO-4.9.lib" "C:\ITK\binary\lib\Debug\ITKSpatialObjects-4.9.lib" "C:\ITK\binary\lib\Debug\ITKPath-4.9.lib" "C:\ITK\binary\lib\Debug\ITKQuadEdgeMesh-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOImageBase-4.9.lib" "C:\ITK\binary\lib\Debug\ITKOptimizers-4.9.lib" "C:\ITK\binary\lib\Debug\ITKPolynomials-4.9.lib" "C:\ITK\binary\lib\Debug\ITKBiasCorrection-4.9.lib" "C:\ITK\binary\lib\Debug\ITKBioCell-4.9.lib" "C:\ITK\binary\lib\Debug\ITKDICOMParser-4.9.lib" "C:\ITK\binary\lib\Debug\ITKEXPAT-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOXML-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOSpatialObjects-4.9.lib" "C:\ITK\binary\lib\Debug\ITKFEM-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmDICT-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmMSFF-4.9.lib" "C:\ITK\binary\lib\Debug\ITKznz-4.9.lib" "C:\ITK\binary\lib\Debug\ITKniftiio-4.9.lib" "C:\ITK\binary\lib\Debug\ITKgiftiio-4.9.lib" "C:\ITK\binary\lib\Debug\itkhdf5_cpp-4.9.lib" "C:\ITK\binary\lib\Debug\itkhdf5-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOBMP-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOBioRad-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOCSV-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOGDCM-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOIPL-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOGE-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOGIPL-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOHDF5-4.9.lib" "C:\ITK\binary\lib\Debug\itkjpeg-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOJPEG-4.9.lib" "C:\ITK\binary\lib\Debug\itktiff-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOTIFF-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOLSM-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOMRC-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOMesh-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOMeta-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIONIFTI-4.9.lib" "C:\ITK\binary\lib\Debug\ITKNrrdIO-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIONRRD-4.9.lib" "C:\ITK\binary\lib\Debug\itkpng-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOPNG-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOSiemens-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOStimulate-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOTransformBase-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOTransformHDF5-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOTransformInsightLegacy-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOTransformMatlab-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOVTK-4.9.lib" "C:\ITK\binary\lib\Debug\ITKKLMRegionGrowing-4.9.lib" "C:\ITK\binary\lib\Debug\ITKOptimizersv4-4.9.lib" "C:\ITK\binary\lib\Debug\ITKVTK-4.9.lib" "C:\ITK\binary\lib\Debug\ITKVideoCore-4.9.lib" "C:\ITK\binary\lib\Debug\ITKVideoIO-4.9.lib" "C:\ITK\binary\lib\Debug\ITKWatersheds-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOXML-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmMSFF-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmDICT-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmIOD-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmDSED-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmCommon-4.9.lib" crypt32.lib "C:\ITK\binary\lib\Debug\itkgdcmjpeg8-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmjpeg12-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmjpeg16-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmopenjpeg-4.9.lib" "C:\ITK\binary\lib\Debug\itkgdcmcharls-4.9.lib" rpcrt4.lib "C:\ITK\binary\lib\Debug\ITKIOTIFF-4.9.lib" "C:\ITK\binary\lib\Debug\itktiff-4.9.lib" "C:\ITK\binary\lib\Debug\itkjpeg-4.9.lib" "C:\ITK\binary\lib\Debug\ITKgiftiio-4.9.lib" "C:\ITK\binary\lib\Debug\ITKEXPAT-4.9.lib" "C:\ITK\binary\lib\Debug\ITKMetaIO-4.9.lib" comctl32.lib wsock32.lib "C:\ITK\binary\lib\Debug\ITKniftiio-4.9.lib" "C:\ITK\binary\lib\Debug\ITKznz-4.9.lib" "C:\ITK\binary\lib\Debug\ITKNrrdIO-4.9.lib" "C:\ITK\binary\lib\Debug\itkpng-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOIPL-4.9.lib" "C:\ITK\binary\lib\Debug\itkhdf5_cpp-4.9.lib" "C:\ITK\binary\lib\Debug\itkhdf5-4.9.lib" "C:\ITK\binary\lib\Debug\itkzlib-4.9.lib" kernel32.lib "C:\ITK\binary\lib\Debug\ITKIOTransformBase-4.9.lib" "C:\ITK\binary\lib\Debug\ITKOptimizers-4.9.lib" "C:\ITK\binary\lib\Debug\ITKIOImageBase-4.9.lib" "C:\ITK\binary\lib\Debug\ITKVideoCore-4.9.lib" "C:\ITK\binary\lib\Debug\ITKStatistics-4.9.lib" "C:\ITK\binary\lib\Debug\itkNetlibSlatec-4.9.lib" "C:\ITK\binary\lib\Debug\ITKSpatialObjects-4.9.lib" "C:\ITK\binary\lib\Debug\ITKMesh-4.9.lib" "C:\ITK\binary\lib\Debug\ITKTransform-4.9.lib" "C:\ITK\binary\lib\Debug\ITKPath-4.9.lib" "C:\ITK\binary\lib\Debug\ITKCommon-4.9.lib" "C:\ITK\binary\lib\Debug\itkdouble-conversion-4.9.lib" "C:\ITK\binary\lib\Debug\itksys-4.9.lib" ws2_32.lib Psapi.lib "C:\ITK\binary\lib\Debug\ITKVNLInstantiation-4.9.lib" "C:\ITK\binary\lib\Debug\itkvnl_algo-4.9.lib" "C:\ITK\binary\lib\Debug\itkv3p_lsqr-4.9.lib" "C:\ITK\binary\lib\Debug\itkvnl-4.9.lib" "C:\ITK\binary\lib\Debug\itkvcl-4.9.lib" "C:\ITK\binary\lib\Debug\itkv3p_netlib-4.9.lib" /MANIFEST /ManifestFile:"GeodesicSegmentation.dir\Debug\GeodesicSegmentation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Gourab/Documents/MedicalImag/KneeMRISegmentation/BoneSegmentation/GeodesicSegmentation/build/Debug/GeodesicSegmentation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Gourab/Documents/MedicalImag/KneeMRISegmentation/BoneSegmentation/GeodesicSegmentation/build/Debug/GeodesicSegmentation.lib" /MACHINE:X86 GeodesicSegmentation.dir\Debug\GeodesicSegmentation.exe.embed.manifest.res
+         GeodesicSegmentation.dir\Debug\GeodesicSegmentation.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"GeodesicSegmentation.dir\Debug\GeodesicSegmentation.exe.embed.manifest" /manifest GeodesicSegmentation.dir\Debug\GeodesicSegmentation.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         GeodesicSegmentation.vcxproj -> C:\Users\Gourab\Documents\MedicalImag\KneeMRISegmentation\BoneSegmentation\GeodesicSegmentation\build\Debug\GeodesicSegmentation.exe
+       FinalizeBuildStatus:
+         Deleting file "GeodesicSegmentation.dir\Debug\GeodesicSegmentation.unsuccessfulbuild".
+         Touching "GeodesicSegmentation.dir\Debug\GeodesicSegmentation.lastbuildstate".
+     1>Done Building Project "C:\Users\Gourab\Documents\MedicalImag\KneeMRISegmentation\BoneSegmentation\GeodesicSegmentation\build\GeodesicSegmentation.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.61

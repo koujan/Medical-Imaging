@@ -1,0 +1,11 @@
+This project presents a geodesic active contour
+based segmentation technique for femur and tibia components
+in the magnetic resonance images (MRI) of knee. Intensity and
+local variance based Geodesic snake structures are used to
+extract the bone features form the image. Initial seeds are
+placed within the bone area on selected image slices. The
+propagation of seeds is performed slice by slice to obtain the
+final shape of the bone. The femoral and tibial cartilages are
+extracted using region growing on correlation image of the
+scan. The algorithm was tested on SKI 10 dataset, the results
+of which are also discussed.
